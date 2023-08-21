@@ -21,9 +21,6 @@
   span {
     justify-content: space-evenly;
   }
-  a {
-    gap: 10px;
-  }
 }
 
 header {
@@ -40,7 +37,7 @@ header {
   border-radius: 20px;
 }
 
-.container0 {
+.container-icons {
   display: flex;
   justify-self: left;
   gap: 10px;
