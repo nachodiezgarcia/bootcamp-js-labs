@@ -19,6 +19,7 @@
   justify-content: space-around;
   align-items: center;
   text-decoration-color: var(--primary);
+  font-size: 16px;
   span {
     justify-content: space-evenly;
   }
@@ -47,7 +48,7 @@ header {
   border: 1px solid var(--primary);
 }
 
-.container-lista-productos{
+.container-lista-productos {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -57,20 +58,37 @@ header {
   margin-top: 32px;
 }
 
-.container-span {
-  margin-top: 32px;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.pie-de-producto{
+.pie-de-producto {
   display: flex;
   justify-content: space-between;
+  font-size: 14px;
 }
 
-.container-uso{
+.container-uso {
   margin-top: 36px;
-  height: 64px;
+  height: 128px;
   width: 100%;
   background-color: var(--primary);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  color: var(--secondary);
+  font-size: 16px;
+}
+
+.entrega {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.circle {
+  border-radius: 100%;
+  background-color: var(--secondary);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
 }
